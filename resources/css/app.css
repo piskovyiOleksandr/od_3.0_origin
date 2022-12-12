@@ -1,0 +1,55 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,em,img,strong,sub,sup,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,table,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,main,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;vertical-align:baseline;background:transparent;box-sizing:border-box}a{margin:0;padding:0;vertical-align:baseline;background:transparent;color:rgba(0,0,0,1);text-decoration:none}table{border-collapse:collapse;border-spacing:0}td,td img{vertical-align:top}input,select,button,textarea{margin:0}input[type="text"],input[type="password"],textarea{padding:0}input[type="checkbox"]{vertical-align:middle}input[type="radio"]{vertical-align:middle}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,main,section{display:block}ul{list-style:none}
+
+@font-face {font-family:'Marta';src:url('/fonts/Marta-Italic.otf');font-display:swap}
+
+* {box-sizing:border-box}
+.transition-02{transition:all 0.2s;-webkit-transition:all 0.2s;-o-transition:all 0.2s;-moz-transition:all 0.2s}
+.transition-03{transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-moz-transition:all 0.3s}
+
+
+html {width:100%;height:100%}
+body {position:relative;display:flex;flex-direction:column;width:100%;height:100%;background:rgba(255,254,248,1);color:rgba(0,0,0,.7);font-family:'Marta' !important;font-weight:normal !important;overflow:hidden}
+
+
+header {flex-grow:0;flex-shrink:0;flex-basis:auto;height:60px;border-bottom:1px solid rgba(0,0,0,.2)}
+
+
+h1 {font-size:60px}
+
+
+.main {position:relative;flex-grow:1;flex-shrink:0;flex-basis:auto}
+
+
+footer {flex-grow:0;flex-shrink:0;padding:0 10px;height:50px;line-height:50px}
+
+
+
+@media only sreen and (min-width:1021px) and (max-width:1280px)
+{
+	
+}
+
+@media only sreen and (min-width:801px) and (max-width:1020px)
+{
+	
+}
+
+@media only sreen and (min-width:501px) and (max-width:800px)
+{
+	
+}
+
+@media only sreen and (min-width:401px) and (max-width:500px)
+{
+	
+}
+
+@media only sreen and (min-width:321px) and (max-width:400px)
+{
+	
+}
+
+@media only sreen and (min-width:200px) and (max-width:320px)
+{
+	
+}
